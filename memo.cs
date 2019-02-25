@@ -130,12 +130,19 @@ addのメソッドの中にInstantiateメソッドでオブジェクトを作成
     float y = transform.rotation.y  //コレだと0～1間での範囲で値が保存される上に沸けわからん計算をされた値が入る
                             
      //任意の角度を入力するなりマウスドラッグでの方向転換を実装できる
-     //0~360度で管理される　-1度は359度で管理される                       
+     //0~360度で管理される　-1度は359度で管理される 
+     //マイナスの値を入力した場合は一応その値の角度に設定される                      
      transform.localEulerAngles = new Vector3(0,
                                                endrotation -
                                                (startpos.x - endpos.x) * lookspeed,
                                                0);
 
+    上記方法で角度を取得しようとすると45～-45の角度の制限をかけようとするとかなり大変になる
+    だから一度別の変数に代入する値を保存してから代入する
+
+    float setrotation = Mathf.Clamp(neckendrotation + (startpos.x - endpos.x) * lookspeed, -45, 45);
+    transform.localEulerAngles = new Vector3(0, setrotation,0);
+    コレなら簡単にマイナスになってもしっかり反映される
 #endregion 
 
 #region　アセットモデルを動かそうとしたが動かなかった
