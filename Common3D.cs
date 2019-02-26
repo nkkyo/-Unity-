@@ -33,14 +33,15 @@ public static class Common3D {
     /// <summary>
     /// マウスドラッグでY軸回転を可能にする 
     /// 引数のstartpos,endposは他の軸移動系のメソッドでフィールド上に作成されていたらそれを使ってよい
+    /// minrotation,maxrotationは制限角度。両方ゼロなら制限なしで動ける
     /// </summary>
     /// <param name="transform">自身のtransform</param>
-    /// <param name="startpos">フィールドに作成しておく　引数を渡すときはref startposで渡すこと</param>
-    /// <param name="endpos">フィールドに作成しておく</param>
-    /// <param name="endrotation">フィールドに作成しておく　引数を渡すときはref endrotationで渡すこと</param>
-    /// <param name="minrotation">フィールドに作成しておく</param>
-    /// <param name="maxrotation">フィールドに作成しておく</param>
-    /// <param name="lookspeed">フィールドに作成しておく</param>
+    /// <param name="startpos">フィールドを作成しておく　引数を渡すときはref startposで渡すこと</param>
+    /// <param name="endpos">フィールドを作成しておく</param>
+    /// <param name="endrotation">フィールドを作成しておく　引数を渡すときはref endrotationで渡すこと</param>
+    /// <param name="minrotation">フィールドを作成しておく</param>
+    /// <param name="maxrotation">フィールドを作成しておく</param>
+    /// <param name="lookspeed">フィールドを作成しておく</param>
     static public void MouseTurnY(Transform transform,ref Vector2 startpos,Vector2 endpos,ref float endrotation,
                                   float minrotation, float maxrotation ,float lookspeed) {
 
