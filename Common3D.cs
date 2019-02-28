@@ -67,15 +67,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -97,15 +97,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -122,15 +122,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -151,15 +151,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -232,15 +232,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -261,15 +261,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -285,15 +285,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -314,15 +314,15 @@ public static class Common3D {
                     switch (axis)
                     {
                         case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
                             break;
 
                         case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+                            gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
                             break;
 
                         default:
@@ -356,276 +356,276 @@ public static class Common3D {
         }
     }
 
-    static public void MouseTurnMix(GameObject gameObject, ref Vector2 startpos, Vector2 endpos, ref float endrotationX, ref float endrotationY, 
-                              float minrotationX,float minrotationY, float maxrotationX, float maxrotationY, float lookspeed, 
-                              string axisX, string axisY, bool mirrorX, bool mirrorY)
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            startpos = Input.mousePosition;
-        }
+    //static public void MouseTurnMix(GameObject gameObject, ref Vector2 startpos, Vector2 endpos, ref float endrotationX, ref float endrotationY, 
+    //                          float minrotationX,float minrotationY, float maxrotationX, float maxrotationY, float lookspeed, 
+    //                          string axisX, string axisY, bool mirrorX, bool mirrorY)
+    //{
+    //    if (Input.GetMouseButtonDown(0))
+    //    {
+    //        startpos = Input.mousePosition;
+    //    }
 
-        if (Input.GetMouseButton(0))
-        {
-            endpos = Input.mousePosition;
+    //    if (Input.GetMouseButton(0))
+    //    {
+    //        endpos = Input.mousePosition;
 
-            #region X座標回転処理　mirrorはfalseが平常処理
-            if (!mirrorX)
-            {
-                if (minrotationX == 0 && maxrotationX == 0)
-                {
-                    float math = endrotationX - (startpos.x - endpos.x) * lookspeed;
-                    switch (axisX)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //        #region X座標回転処理　mirrorはfalseが平常処理
+    //        if (!mirrorX)
+    //        {
+    //            if (minrotationX == 0 && maxrotationX == 0)
+    //            {
+    //                float math = endrotationX - (startpos.x - endpos.x) * lookspeed;
+    //                switch (axisX)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-                else
-                {
-                    float math = 0;
-                    if (endrotationX > 180)
-                    {
-                        math = Mathf.Clamp((endrotationX - 360) - (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
-                    }
-                    else
-                    {
-                        math = Mathf.Clamp(endrotationX - (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
-                    }
-                    switch (axisX)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //            else
+    //            {
+    //                float math = 0;
+    //                if (endrotationX > 180)
+    //                {
+    //                    math = Mathf.Clamp((endrotationX - 360) - (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
+    //                }
+    //                else
+    //                {
+    //                    math = Mathf.Clamp(endrotationX - (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
+    //                }
+    //                switch (axisX)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-            }
-            else
-            {
-                if (minrotationX == 0 && maxrotationX == 0)
-                {
-                    float math = endrotationX + (startpos.x - endpos.x) * lookspeed;
-                    switch (axisX)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //        }
+    //        else
+    //        {
+    //            if (minrotationX == 0 && maxrotationX == 0)
+    //            {
+    //                float math = endrotationX + (startpos.x - endpos.x) * lookspeed;
+    //                switch (axisX)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-                else
-                {
-                    float math = 0;
-                    if (endrotationX > 180)
-                    {
-                        math = Mathf.Clamp((endrotationX - 360) + (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
-                    }
-                    else
-                    {
-                        math = Mathf.Clamp(endrotationX + (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
-                    }
-                    switch (axisX)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //            else
+    //            {
+    //                float math = 0;
+    //                if (endrotationX > 180)
+    //                {
+    //                    math = Mathf.Clamp((endrotationX - 360) + (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
+    //                }
+    //                else
+    //                {
+    //                    math = Mathf.Clamp(endrotationX + (startpos.x - endpos.x) * lookspeed, minrotationX, maxrotationX);
+    //                }
+    //                switch (axisX)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-            }
-            #endregion
-            #region Y座標回転処理　mirrorはfalseが平常処理
-            if (!mirrorY)
-            {
-                if (minrotationY == 0 && maxrotationY == 0)
-                {
-                    float math = endrotationY - (startpos.y - endpos.y) * lookspeed;
-                    switch (axisY)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //        }
+    //        #endregion
+    //        #region Y座標回転処理　mirrorはfalseが平常処理
+    //        if (!mirrorY)
+    //        {
+    //            if (minrotationY == 0 && maxrotationY == 0)
+    //            {
+    //                float math = endrotationY - (startpos.y - endpos.y) * lookspeed;
+    //                switch (axisY)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-                else
-                {
-                    float math = 0;
-                    if (endrotationY > 180)
-                    {
-                        math = Mathf.Clamp((endrotationY - 360) - (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
-                    }
-                    else
-                    {
-                        math = Mathf.Clamp(endrotationY - (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
-                    }
-                    switch (axisY)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //            else
+    //            {
+    //                float math = 0;
+    //                if (endrotationY > 180)
+    //                {
+    //                    math = Mathf.Clamp((endrotationY - 360) - (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
+    //                }
+    //                else
+    //                {
+    //                    math = Mathf.Clamp(endrotationY - (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
+    //                }
+    //                switch (axisY)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, gameObject.transform.localEulerAngles.y, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, math, gameObject.transform.localEulerAngles.z);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, gameObject.transform.localEulerAngles.y, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-            }
-            else
-            {
-                if (minrotationY == 0 && maxrotationY == 0)
-                {
-                    float math = endrotationY + (startpos.y - endpos.y) * lookspeed;
-                    switch (axisY)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //        }
+    //        else
+    //        {
+    //            if (minrotationY == 0 && maxrotationY == 0)
+    //            {
+    //                float math = endrotationY + (startpos.y - endpos.y) * lookspeed;
+    //                switch (axisY)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-                else
-                {
-                    float math = 0;
-                    if (endrotationY > 180)
-                    {
-                        math = Mathf.Clamp((endrotationY - 360) + (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
-                    }
-                    else
-                    {
-                        math = Mathf.Clamp(endrotationY + (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
-                    }
-                    switch (axisY)
-                    {
-                        case "x":
-                            gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
-                            break;
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //            else
+    //            {
+    //                float math = 0;
+    //                if (endrotationY > 180)
+    //                {
+    //                    math = Mathf.Clamp((endrotationY - 360) + (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
+    //                }
+    //                else
+    //                {
+    //                    math = Mathf.Clamp(endrotationY + (startpos.y - endpos.y) * lookspeed, minrotationY, maxrotationY);
+    //                }
+    //                switch (axisY)
+    //                {
+    //                    case "x":
+    //                        gameObject.transform.localEulerAngles = new Vector3(math, 0, 0);
+    //                        break;
 
-                        case "y":
-                            gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
-                            break;
+    //                    case "y":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, math, 0);
+    //                        break;
 
-                        case "z":
-                            gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
-                            break;
+    //                    case "z":
+    //                        gameObject.transform.localEulerAngles = new Vector3(0, 0, math);
+    //                        break;
 
-                        default:
-                            break;
-                    }
-                }
-            }
-            #endregion
-        }
+    //                    default:
+    //                        break;
+    //                }
+    //            }
+    //        }
+    //        #endregion
+    //    }
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            switch (axisX)
-            {
-                case "x":
-                    endrotationX = gameObject.transform.localEulerAngles.x;
-                    break;
+    //    if (Input.GetMouseButtonUp(0))
+    //    {
+    //        switch (axisX)
+    //        {
+    //            case "x":
+    //                endrotationX = gameObject.transform.localEulerAngles.x;
+    //                break;
 
-                case "y":
-                    endrotationX = gameObject.transform.localEulerAngles.y;
-                    break;
+    //            case "y":
+    //                endrotationX = gameObject.transform.localEulerAngles.y;
+    //                break;
 
-                case "z":
-                    endrotationX = gameObject.transform.localEulerAngles.z;
-                    break;
+    //            case "z":
+    //                endrotationX = gameObject.transform.localEulerAngles.z;
+    //                break;
 
-                default:
-                    break;
-            }
+    //            default:
+    //                break;
+    //        }
 
-            switch (axisY)
-            {
-                case "x":
-                    endrotationY = gameObject.transform.localEulerAngles.x;
-                    break;
+    //        switch (axisY)
+    //        {
+    //            case "x":
+    //                endrotationY = gameObject.transform.localEulerAngles.x;
+    //                break;
 
-                case "y":
-                    endrotationY = gameObject.transform.localEulerAngles.y;
-                    break;
+    //            case "y":
+    //                endrotationY = gameObject.transform.localEulerAngles.y;
+    //                break;
 
-                case "z":
-                    endrotationY = gameObject.transform.localEulerAngles.z;
-                    break;
+    //            case "z":
+    //                endrotationY = gameObject.transform.localEulerAngles.z;
+    //                break;
 
-                default:
-                    break;
-            }
-        }
-    }
+    //            default:
+    //                break;
+    //        }
+    //    }
+    //}
 
 
 
